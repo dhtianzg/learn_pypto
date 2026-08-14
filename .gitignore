@@ -58,3 +58,5 @@ build_dir.json
 # 二进制
 *.run
 *.whl
+
+start/output

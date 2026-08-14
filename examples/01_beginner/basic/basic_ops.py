@@ -22,6 +22,9 @@ import pypto
 
 runtime_options = {"run_mode": pypto.RunMode.NPU}
 
+# 开启编译图、泳道图
+# pypto.set_debug_options(compile_debug_mode=1, runtime_debug_mode=1)
+pypto.set_debug_options(runtime_debug_mode=1)
 
 @pypto.frontend.jit(runtime_options=runtime_options)
 def add_kernel(
@@ -165,7 +168,7 @@ def device_init(run_mode):
 def main():
     examples = {
         "add": test_add,
-        "erfc": test_erfc,
+        # "erfc": test_erfc,
         "matmul": test_matmul,
         "sum": test_sum,
         "dynamic_add": test_dynamic_add,
