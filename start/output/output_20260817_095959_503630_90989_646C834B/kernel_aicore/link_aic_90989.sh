@@ -1,0 +1,2 @@
+#!/bin/bash
+ld.lld -m aicorelinux -Ttext=0 -static -r -o /data/tianzg/source_code/learn_pypto/start/output/output_20260817_095959_503630_90989_646C834B/kernel_aicore/dy_kernel_4542232387646707748_aic_0.o output/output_20260817_095959_503630_90989_646C834B/kernel_aicore/TENSOR_default_loop_1_Unroll1_PATH0_hiddenfunc0_5_713592358723013278_0_aic.o /data/tianzg/source_code/learn_pypto/start/output/output_20260817_095959_503630_90989_646C834B/kernel_aicore/mid_kernel_4542232387646707748_aic_0.o

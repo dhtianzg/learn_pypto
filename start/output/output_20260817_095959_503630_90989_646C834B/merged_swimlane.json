@@ -1,0 +1,131 @@
+{
+    "traceEvents": [
+        {
+            "args": {
+                "name": "Machine View"
+            },
+            "cat": "__metadata",
+            "name": "process_name",
+            "ph": "M",
+            "pid": 1
+        },
+        {
+            "args": {
+                "name": "Fake Core_0"
+            },
+            "cat": "__metadata",
+            "name": "thread_name",
+            "ph": "M",
+            "pid": 1,
+            "tid": 1000
+        },
+        {
+            "args": {
+                "name": "AIC_1"
+            },
+            "cat": "__metadata",
+            "name": "thread_name",
+            "ph": "M",
+            "pid": 1,
+            "tid": 1002
+        },
+        {
+            "args": {
+                "name": "AIC_2"
+            },
+            "cat": "__metadata",
+            "name": "thread_name",
+            "ph": "M",
+            "pid": 1,
+            "tid": 1004
+        },
+        {
+            "args": {
+                "event-hint": "Task:[0-0-0], rootHash:15270094024039373665, callOpMagic:10001, leafHash:876769220344535184, TaskId:0",
+                "ioperand-hint": "[{17: {'shape': [128, 64], 'dtype': 8, 'rawmagic': 27}}, {14: {'shape': [64, 128], 'dtype': 8, 'rawmagic': 25}}]",
+                "ooperand-hint": "[{19: {'shape': [64, 64], 'dtype': 8, 'rawmagic': 29}}]",
+                "execution-hint": "Average Execution Time: 4.9404296875\nMax Execution Time: 5.021484375, Task: [0-0-0]\nMin Execution Time: 4.859375, Task: [0-0-1]\n",
+                "color": "",
+                "taskId": 0,
+                "seqNo": 0
+            },
+            "cat": "event",
+            "id": 0,
+            "name": "0-0-0-5-0()",
+            "ph": "X",
+            "pid": 1,
+            "tid": 1002,
+            "ts": 10037599260578.78,
+            "dur": 5.021484375
+        },
+        {
+            "args": {
+                "event-hint": "Task:[0-0-1], rootHash:15270094024039373665, callOpMagic:10000, leafHash:876769220344535184, TaskId:1",
+                "ioperand-hint": "[{17: {'shape': [128, 64], 'dtype': 8, 'rawmagic': 27}}, {14: {'shape': [64, 128], 'dtype': 8, 'rawmagic': 25}}]",
+                "ooperand-hint": "[{19: {'shape': [64, 64], 'dtype': 8, 'rawmagic': 29}}]",
+                "execution-hint": "Average Execution Time: 4.9404296875\nMax Execution Time: 5.021484375, Task: [0-0-0]\nMin Execution Time: 4.859375, Task: [0-0-1]\n",
+                "color": "",
+                "taskId": 1,
+                "seqNo": 0
+            },
+            "cat": "event",
+            "id": 1,
+            "name": "0-0-1-5-0()",
+            "ph": "X",
+            "pid": 1,
+            "tid": 1004,
+            "ts": 10037599260578.82,
+            "dur": 4.859375
+        },
+        {
+            "name": "ReadyCount_AIC",
+            "pid": 1,
+            "tid": 1,
+            "ph": "C",
+            "ts": 10037599260578.78,
+            "args": {
+                "size": 1
+            }
+        },
+        {
+            "name": "ReadyCount_Total",
+            "pid": 1,
+            "tid": 1,
+            "ph": "C",
+            "ts": 10037599260578.78,
+            "args": {
+                "size": 1
+            }
+        },
+        {
+            "name": "ReadyCount_AIC",
+            "pid": 1,
+            "tid": 1,
+            "ph": "C",
+            "ts": 10037599260578.82,
+            "args": {
+                "size": 0
+            }
+        },
+        {
+            "name": "ReadyCount_Total",
+            "pid": 1,
+            "tid": 1,
+            "ph": "C",
+            "ts": 10037599260578.82,
+            "args": {
+                "size": 0
+            }
+        },
+        {
+            "name": "Dependence Solving (MHz)",
+            "pid": 1,
+            "tid": 1,
+            "ph": "C",
+            "ts": 10037599260578.78,
+            "args": {
+                "size": 0.0
+            }
+        }
+    ]
+}

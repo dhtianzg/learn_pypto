@@ -1,0 +1,2 @@
+#!/bin/bash
+ld.lld -m aicorelinux -Ttext=0 -static  -o /data/tianzg/source_code/learn_pypto/start/output/output_20260817_095959_503630_90989_646C834B/kernel_aicore/dy_kernel_4542232387646707748_0.o  /data/tianzg/source_code/learn_pypto/start/output/output_20260817_095959_503630_90989_646C834B/kernel_aicore/dy_kernel_4542232387646707748_aic_0.o /data/tianzg/source_code/learn_pypto/start/output/output_20260817_095959_503630_90989_646C834B/kernel_aicore/dy_kernel_4542232387646707748_aiv_0.o

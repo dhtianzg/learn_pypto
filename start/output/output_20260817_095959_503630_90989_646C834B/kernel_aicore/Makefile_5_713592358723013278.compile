@@ -1,0 +1,10 @@
+# Auto-generated Makefile for parallel compilation
+all: output/output_20260817_095959_503630_90989_646C834B/kernel_aicore/TENSOR_default_loop_1_Unroll1_PATH0_hiddenfunc0_5_713592358723013278_0_aic.o 
+
+output/output_20260817_095959_503630_90989_646C834B/kernel_aicore/TENSOR_default_loop_1_Unroll1_PATH0_hiddenfunc0_5_713592358723013278_0_aic.o: output/output_20260817_095959_503630_90989_646C834B/kernel_aicore/TENSOR_default_loop_1_Unroll1_PATH0_hiddenfunc0_5_713592358723013278_0_aic.cpp
+	@bisheng -c -O3 -g -x cce -std=c++17 -D__AIC__ -DSUPPORT_TILE_TENSOR -D__DAV_V220 -DMEMORY_BASE --cce-aicore-only --cce-aicore-arch=dav-c220-cube -I/usr/local/python3.12.13/lib/python3.12/site-packages/pypto/lib/include/tilefwk -I/usr/local/python3.12.13/lib/python3.12/site-packages/pypto/lib/include/tileop -I/usr/local/python3.12.13/lib/python3.12/site-packages/pypto/lib/include/tileop/arch32 -I/usr/local/python3.12.13/lib/python3.12/site-packages/pypto/lib/include -I/usr/local/Ascend/cann-9.0.0/include -mllvm -cce-aicore-stack-size=0x8000 -mllvm -cce-aicore-function-stack-size=0x8000 -mllvm -cce-aicore-record-overflow=false -mllvm -cce-aicore-addr-transform -mllvm -cce-aicore-dcci-insert-for-scalar=false  -o output/output_20260817_095959_503630_90989_646C834B/kernel_aicore/TENSOR_default_loop_1_Unroll1_PATH0_hiddenfunc0_5_713592358723013278_0_aic.o output/output_20260817_095959_503630_90989_646C834B/kernel_aicore/TENSOR_default_loop_1_Unroll1_PATH0_hiddenfunc0_5_713592358723013278_0_aic.cpp
+
+.PHONY: all clean
+
+clean:
+	@rm -f output/output_20260817_095959_503630_90989_646C834B/kernel_aicore/TENSOR_default_loop_1_Unroll1_PATH0_hiddenfunc0_5_713592358723013278_0_aic.o 

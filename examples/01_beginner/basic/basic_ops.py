@@ -167,11 +167,11 @@ def device_init(run_mode):
 
 def main():
     examples = {
-        "add": test_add,
+        # "add": test_add,
         # "erfc": test_erfc,
         "matmul": test_matmul,
-        "sum": test_sum,
-        "dynamic_add": test_dynamic_add,
+        # "sum": test_sum,
+        # "dynamic_add": test_dynamic_add,
     }
 
     parser = argparse.ArgumentParser(description="PyPTO Basic Operations Quick-Start")

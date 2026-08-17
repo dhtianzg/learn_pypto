@@ -1,0 +1,38 @@
+{
+    "PyptoInit": {
+        "opInfo": {
+            "computeCost": "100",
+            "engine": "DNN_VM_AICPU",
+            "flagAsync": "False",
+            "flagPartial": "False",
+            "functionName": "DynPyptoKernelServerInit",
+            "kernelSo": "libtilefwk_backend_server.so",
+            "opKernelLib": "KFCKernel",
+            "userDefined": "False"
+        }
+    },
+    "PyptoNull": {
+        "opInfo": {
+            "computeCost": "100",
+            "engine": "DNN_VM_AICPU",
+            "flagAsync": "False",
+            "flagPartial": "False",
+            "functionName": "DynPyptoKernelServerNull",
+            "kernelSo": "libtilefwk_backend_server.so",
+            "opKernelLib": "AICPUKernel",
+            "userDefined": "False"
+        }
+    },
+    "PyptoRun": {
+        "opInfo": {
+            "computeCost": "100",
+            "engine": "DNN_VM_AICPU",
+            "flagAsync": "False",
+            "flagPartial": "False",
+            "functionName": "DynPyptoKernelServer",
+            "kernelSo": "libtilefwk_backend_server.so",
+            "opKernelLib": "KFCKernel",
+            "userDefined": "False"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+SECTIONS
+{
+    . = 0x10000;
+    _start = .;
+    .pypto : { *(.pypto.entry) *(.pypto.func) *(.rodata.*) }
+}

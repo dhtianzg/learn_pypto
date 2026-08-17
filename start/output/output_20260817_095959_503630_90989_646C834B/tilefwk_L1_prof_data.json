@@ -1,0 +1,28 @@
+[
+    {
+        "blockIdx": 0,
+        "coreType": "AIC",
+        "tasks": [
+            {
+                "execEnd": 501879963029190,
+                "execStart": 501879963028939,
+                "seqNo": 0,
+                "subGraphId": 1,
+                "taskId": 0
+            }
+        ]
+    },
+    {
+        "blockIdx": 1,
+        "coreType": "AIC",
+        "tasks": [
+            {
+                "execEnd": 501879963029184,
+                "execStart": 501879963028941,
+                "seqNo": 0,
+                "subGraphId": 1,
+                "taskId": 1
+            }
+        ]
+    }
+]
